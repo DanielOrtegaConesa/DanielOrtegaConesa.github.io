@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatSliderModule } from '@angular/material/slider';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { IntroComponent } from './intro/intro.component';
 
 @NgModule({
@@ -16,7 +16,7 @@ import { IntroComponent } from './intro/intro.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSliderModule
+    FlexLayoutModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

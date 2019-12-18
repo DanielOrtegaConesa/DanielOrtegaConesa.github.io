@@ -1,0 +1,16 @@
+/* Background pattern from Toptal Subtle Patterns */
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap");
+.container {
+  height: 100%;
+  width: 100%;
+  background-image: url("../../assets/papyrus-dark/papyrus-dark.png");
+}
+
+.me {
+  font-family: "Nanum Gothic", sans-serif;
+
+  font-size: 80px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
