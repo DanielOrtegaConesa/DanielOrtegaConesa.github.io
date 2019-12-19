@@ -3,14 +3,22 @@
 .container {
   height: 100%;
   width: 100%;
-  background-image: url("../../assets/papyrus-dark/papyrus-dark.png");
+  background-image: url("../../assets/escheresque_ste/escheresque_ste.png");
 }
 
+.hello {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
 .me {
   font-family: "Nanum Gothic", sans-serif;
-
   font-size: 70px;
   font-weight: bold;
   color: #ffffff;
   text-align: center;
+  margin-top: 20px;
 }
