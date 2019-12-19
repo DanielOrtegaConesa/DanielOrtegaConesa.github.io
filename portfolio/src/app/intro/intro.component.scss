@@ -1,0 +1,29 @@
+/* Background pattern from Toptal Subtle Patterns */
+.container {
+  height: 100%;
+  width: 100%;
+  background-image: url("../../assets/escheresque_ste/escheresque_ste.png");
+}
+
+.myphoto {
+  height: 150px;
+  border-radius: 50%;
+}
+
+.me {
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  color: #3d8ec4;
+  text-align: center;
+  margin: 20px;
+  div {
+    margin-right: 30px;
+  }
+}
+
+.links a img {
+  height: 50px;
+  height: 50px;
+  margin: 20px 10px;
+}
