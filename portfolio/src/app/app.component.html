@@ -1,4 +1,14 @@
-<app-intro></app-intro>
-<!-- <div style="height: 400px;">
-    fas
-</div> -->
+<!-- <app-intro></app-intro> -->
+<div fullpage id="fullpage" [options]="config" (ref)="getRef($event)">
+    <div class="section">
+        <app-intro></app-intro>
+    </div>
+    <!-- <div class="section" (click)="fullpageApi.moveSectionDown()">Some section2</div>
+    <div class="section">
+
+        <div class="slide">Slide 2.1</div>
+        <div class="slide">Slide 2.2</div>
+        <div class="slide">Slide 2.3</div>
+    </div>
+    <div class="section" (click)="fullpageApi.moveTo('secondPage', 2)">Some section4</div> -->
+</div>
