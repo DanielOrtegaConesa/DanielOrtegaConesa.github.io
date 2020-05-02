@@ -1,4 +1,6 @@
 /* Background pattern from Toptal Subtle Patterns */
+@import "variables";
+
 .container {
   height: 100%;
   width: 100%;
@@ -14,7 +16,7 @@
   font-family: "Poppins", sans-serif;
   font-size: 70px;
   font-weight: bold;
-  color: #3d8ec4;
+  color: $blue;
   text-align: center;
   margin: 20px;
 }
