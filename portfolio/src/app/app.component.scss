@@ -1,0 +1,48 @@
+@import "variables";
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#menu li {
+    display: inline-block;
+    margin: 10px;
+    color: $black;
+    background: $white;
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+#menu li.active {
+    background: $grey;
+    background: rgba(0, 0, 0, 0.5);
+    color: $white;
+}
+#menu li a {
+    text-decoration: none;
+    color: $black;
+}
+#menu li.active a:hover {
+    color: $black;
+}
+#menu li:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+#menu li a,
+#menu li.active a {
+    padding: 9px 18px;
+    display: block;
+}
+#menu li.active a {
+    color: $white;
+}
+.fp-slidesNav {
+    display: flex;
+    justify-content: center;
+}

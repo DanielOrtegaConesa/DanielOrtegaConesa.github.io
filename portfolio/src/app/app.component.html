@@ -1,14 +1,21 @@
-<!-- <app-intro></app-intro> -->
-<div fullpage id="fullpage" [options]="config" (ref)="getRef($event)">
-    <div class="section">
-        <app-intro></app-intro>
-    </div>
-    <!-- <div class="section" (click)="fullpageApi.moveSectionDown()">Some section2</div>
-    <div class="section">
+<ul id="menu">
+    <li data-menuanchor="home" class="active"><a href="#home">Inicio</a></li>
+    <li data-menuanchor="secondPage"><a href="#technologies">Tecnologias</a></li>
+</ul>
 
-        <div class="slide">Slide 2.1</div>
-        <div class="slide">Slide 2.2</div>
-        <div class="slide">Slide 2.3</div>
+<div fullpage id="fullpage" [options]="config" (ref)="getRef($event)">
+
+    <div class="section">
+        <div class="slide">
+            <app-intro></app-intro>
+        </div>
     </div>
-    <div class="section" (click)="fullpageApi.moveTo('secondPage', 2)">Some section4</div> -->
+    <div class="section">
+        <div class="slide">
+            Slide 2.1
+        </div>
+        <div class="slide">
+            Slide 2.2
+        </div>
+    </div>
 </div>

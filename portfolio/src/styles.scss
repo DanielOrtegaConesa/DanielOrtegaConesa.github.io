@@ -5,6 +5,7 @@
 html,
 body {
   height: 100%;
+  background-image: url("../../assets/escheresque_ste/escheresque_ste.png");
 }
 body {
   margin: 0;
@@ -13,4 +14,13 @@ body {
 
 .whiteColor {
   color: $white;
+}
+
+.fp-slidesNav {
+  left: 50% !important;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background-color: $blue;
 }
