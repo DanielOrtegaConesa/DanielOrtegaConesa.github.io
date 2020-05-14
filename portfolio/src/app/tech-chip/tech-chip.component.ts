@@ -9,6 +9,7 @@ export class TechChipComponent implements OnInit {
 
   @Input() src: string;
   @Input() placeholder: string;
+  @Input() iconSeparation = false;
   constructor() { }
 
   ngOnInit() {

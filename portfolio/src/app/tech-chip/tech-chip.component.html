@@ -1,4 +1,9 @@
-<div class="chip">
-    <img [src]="src" alt="Person">
+<div class="chip" *ngIf="!iconSeparation">
+    <img [src]="src">
+    {{placeholder}}
+</div>
+
+<div class="chipSeparated" *ngIf="iconSeparation">
+    <img [src]="src" class="iconSeparation">
     {{placeholder}}
 </div>
