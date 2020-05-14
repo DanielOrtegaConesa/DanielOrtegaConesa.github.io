@@ -1,12 +1,6 @@
 /* Background pattern from Toptal Subtle Patterns */
 @import "variables";
 
-.container {
-  height: 100%;
-  width: 100%;
-  background-image: url("../../assets/escheresque_ste/escheresque_ste.png");
-}
-
 .myphoto {
   height: 150px;
   border-radius: 50%;
@@ -25,8 +19,4 @@
   height: 50px;
   height: 50px;
   margin: 20px 10px;
-}
-
-.pr20 {
-  margin-right: 30px;
 }
