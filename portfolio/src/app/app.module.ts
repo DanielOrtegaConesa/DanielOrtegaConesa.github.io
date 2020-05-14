@@ -9,6 +9,7 @@ import { IntroComponent } from './intro/intro.component';
 import { AngularFullpageModule } from '@fullpage/angular-fullpage';
 import { FrontendTechnologiesComponent } from './frontend-technologies/frontend-technologies.component';
 import { BackendTechnologiesComponent } from './backend-technologies/backend-technologies.component';
+import { TechChipComponent } from './tech-chip/tech-chip.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { BackendTechnologiesComponent } from './backend-technologies/backend-tec
     IntroComponent,
     FrontendTechnologiesComponent,
     BackendTechnologiesComponent,
+    TechChipComponent,
   ],
   imports: [
     BrowserModule,
