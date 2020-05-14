@@ -10,6 +10,7 @@ export class AppComponent {
   public fullpageApi: any;
 
   constructor() {
+    const isMobile = navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i)
 
     this.config = {
       licenseKey: 'HIesNLH!b3',
@@ -17,7 +18,7 @@ export class AppComponent {
       menu: '#menu',
       navigation: true,
       slidesNavigation: true,
-      controlArrows: false,
+      controlArrows: !isMobile,
       afterResize: () => {
       },
       afterLoad: (origin, destination, direction) => {

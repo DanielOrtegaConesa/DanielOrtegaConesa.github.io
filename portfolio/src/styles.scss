@@ -25,6 +25,13 @@ body {
   background-color: $blue;
 }
 
+.fp-controlArrow.fp-prev {
+  left: 50px;
+}
+.fp-controlArrow.fp-next {
+  right: 50px;
+}
+
 .pr30 {
   margin-right: 30px;
 }
