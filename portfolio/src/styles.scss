@@ -17,7 +17,7 @@ body {
 }
 
 .fp-slidesNav {
-  left: 50% !important;
+  left: calc(50% - 25px) !important;
 }
 
 #fp-nav ul li a span,
@@ -64,4 +64,8 @@ body {
 .title:after {
   left: 0.5em;
   margin-right: -50%;
+}
+
+.fp-tableCell {
+  height: auto !important;
 }
